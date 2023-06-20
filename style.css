@@ -11,7 +11,7 @@ nav {
 }
 
 nav span {
-  font-size: 34px;
+  font-size: 30px;
   line-height: 54px;
 }
 
@@ -34,4 +34,55 @@ nav ul {
 
 nav li {
   font-weight: 300;
+}
+
+.hero-main {
+  background-color: #1f2937;
+  color: #f9faf8;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-main-content1 {
+  width: 35%;
+  margin-top: 120px;
+  justify-content: center;
+  font-weight: 300;
+}
+
+.hero-main-content1 span {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero-main-content1 button {
+  margin-top: 20px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  height: 40px;
+  width: 120px;
+  border: 1px solid #f9faf8;
+  border-radius: 8px;
+}
+
+.hero-main-content1 button:hover {
+  color:#3882f6;
+  background-color: #f9faf8;
+  border: 1px solid #3882f6;
+  transition: 0.4s;
+
+}
+
+
+.hero-main-content2 {
+  margin-top: 120px;
+  background-color: #91959e;
+  height: 250px;
+  width: 490px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
