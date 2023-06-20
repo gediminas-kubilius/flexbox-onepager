@@ -105,3 +105,26 @@ nav li {
   position: relative;
   top: 177px;
 }
+
+.quote-content {
+  height: 45vh;
+  background-color: #c6cad4;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.quote-content-text {
+  margin: auto;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.quote-content-text span {
+  font-weight: 700;
+  letter-spacing: -2px;
+  float: right;
+  margin-right: 15px;
+}
